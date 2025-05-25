@@ -3,7 +3,25 @@ import * as fs from 'fs';
 import { v1 as uuidv1 } from 'uuid';
 import NodeCache from 'node-cache';
 import * as path from 'path';
-import * as Ps from 'ee-core/ps';
+// import * as Ps from '../../server/adapters/ee-core-adapter';
+import { 
+    getBaseDir, 
+    getAppDataDir, 
+    getUserDataDir, 
+    getAppUserDataDir,
+    getRootDir,
+    getExtraResourcesDir,
+    appVersion 
+} from '../../server/adapters/ee-core-adapter';
+const Ps = { 
+    getBaseDir, 
+    getAppDataDir, 
+    getUserDataDir, 
+    getAppUserDataDir,
+    getRootDir,
+    getExtraResourcesDir,
+    appVersion 
+};
 import {exec, execSync } from 'child_process';
 import axios from 'axios'
 import {Ollama} from 'ollama';

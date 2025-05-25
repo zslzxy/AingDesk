@@ -3,7 +3,7 @@ import { pub } from '../class/public';
 import * as path from 'path';
 import axios from 'axios';
 import * as fs from 'fs';
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import { selectFastestNode } from '../class/test_node';
 // const { exec, execSync } = require('child_process');
 import { exec, execSync } from 'child_process';

@@ -1,6 +1,6 @@
 import {pub} from '../class/public';
 import path from 'path';
-import {logger} from 'ee-core/log';
+import {logger} from '../../server/adapters/ee-core-adapter';
 
 /**
  * 智能体服务类，提供与智能体相关的各种操作

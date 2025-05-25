@@ -2,7 +2,7 @@ import { LanceDBManager } from './vector_database/vector_lancedb';
 import { pub } from '../class/public';
 import { Rag } from './rag';
 import {indexService} from '../service/index'
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import path from 'path';
 
 

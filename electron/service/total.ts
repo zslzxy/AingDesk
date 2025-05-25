@@ -1,7 +1,7 @@
 import { pub } from '../class/public';
 import https from 'https';
 import querystring from 'querystring';
-import {logger} from 'ee-core/log';
+import {logger} from '../../server/adapters/ee-core-adapter';
 
 
 class TotalService {
@@ -54,7 +54,7 @@ class TotalService {
         });
         
         req.on('error', (e) => {
-            logger.warn(e);
+            logger.warn(e.message || String(e));
         });
 
 

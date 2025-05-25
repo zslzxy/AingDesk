@@ -1,10 +1,10 @@
 import path from 'path';
 import { BrowserWindow, Notification } from 'electron';
-import { getMainWindow } from 'ee-core/electron';
-import { isProd, getBaseDir } from 'ee-core/ps';
-import { getConfig } from 'ee-core/config';
-import { isFileProtocol } from 'ee-core/utils';
-import { logger } from 'ee-core/log';
+import { getMainWindow } from '../../server/adapters/ee-core-adapter';
+import { isProd, getBaseDir } from '../../server/adapters/ee-core-adapter';
+import { getConfig } from '../../server/adapters/ee-core-adapter';
+import { isFileProtocol } from '../../server/adapters/ee-core-adapter';
+import { logger } from '../../server/adapters/ee-core-adapter';
 
 /**
  * Window

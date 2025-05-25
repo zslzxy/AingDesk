@@ -1,6 +1,5 @@
 import path from 'path';
-import { getBaseDir } from 'ee-core/ps';
-import { type AppConfig } from 'ee-core/config';
+import { getBaseDir, type AppConfig } from '../../server/adapters/ee-core-adapter';
 
 const config: () => AppConfig = () => {
   return {

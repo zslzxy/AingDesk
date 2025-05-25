@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": false,
+    "sourceMap": false,
+    "types": ["node"],
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "noImplicitOverride": false
+  },
+  "include": [
+    "server/**/*",
+    "electron/service/**/*",
+    "electron/controller/**/*",
+    "electron/config/**/*",
+    "electron/class/**/*",
+    "electron/rag/**/*",
+    "electron/search_engines/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "frontend",
+    "build",
+    "public",
+    "electron/main.ts",
+    "electron/preload/**/*",
+    "electron/controller/os.ts",
+    "electron/service/os/**/*",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
+}

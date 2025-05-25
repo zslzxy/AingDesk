@@ -6,7 +6,7 @@ import { Tool } from "@modelcontextprotocol/sdk/types.js";
 import { ChatCompletionMessageParam } from "openai/resources/chat/completions.js";
 import { pub } from "../class/public";
 import path from "path";
-import { logger } from "ee-core/log";
+import { logger } from "../../server/adapters/ee-core-adapter";
 import { mcpService } from "./mcp";
 import Stream from "openai/streaming";
 import punycode from "punycode/";

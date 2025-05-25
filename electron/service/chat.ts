@@ -1,4 +1,4 @@
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import { pub } from '../class/public';
 import * as path from 'path';
 import { parseDocument } from '../rag/doc_engins/doc';

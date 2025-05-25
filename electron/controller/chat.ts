@@ -1,7 +1,7 @@
 import Stream from 'stream';
 import { ChatService, ChatContext, ChatHistory,ModelInfo } from '../service/chat';
 import { pub } from '../class/public';
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import { getPromptForWeb } from '../search_engines/search';
 import { Rag } from '../rag/rag';
 import { ModelService, GetSupplierModels, getModelContextLength ,setModelUsedTotal,getModelUsedTotalList} from '../service/model';

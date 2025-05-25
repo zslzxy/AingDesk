@@ -2,7 +2,7 @@
  * Preload module, this file will be loaded when the program starts.
  */
 
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import { trayService } from '../service/os/tray';
 import { securityService } from '../service/os/security';
 import { autoUpdaterService } from '../service/os/auto_updater';

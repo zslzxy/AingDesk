@@ -1,7 +1,7 @@
 import { pub } from '../class/public';
 import { OllamaService } from '../service/ollama';
 import * as os from 'os';
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 const { execSync } = require('child_process');
 const iconv = require('iconv-lite');
 

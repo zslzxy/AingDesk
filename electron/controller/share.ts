@@ -1,5 +1,5 @@
 import { pub } from '../class/public';
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import path from 'path';
 
 const SHARE_URL = 'https://share.aingdesk.com';

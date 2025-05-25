@@ -1,6 +1,6 @@
 import { pub } from '../class/public';
 import * as path from 'path';
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import { ServerConfig, ToolInfo, MCPClient ,McpConfig} from '../service/mcp_client';
 import { mcpService } from '../service/mcp';
 

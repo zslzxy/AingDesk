@@ -1,6 +1,6 @@
-import { logger } from 'ee-core/log';
-import { getConfig } from 'ee-core/config';
-import { getMainWindow } from 'ee-core/electron';
+import { logger } from '../../server/adapters/ee-core-adapter';
+import { getConfig } from '../../server/adapters/ee-core-adapter';
+import { getMainWindow } from '../../server/adapters/ee-core-adapter';
 import { pub } from '../class/public';
 import { ContextMenu } from '../class/menu';
 

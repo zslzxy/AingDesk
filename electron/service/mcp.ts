@@ -1,6 +1,6 @@
 import path from 'path';
 import { pub } from '../class/public';
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import axios from 'axios';
 import fs from 'fs';
 import { ServerConfig, McpConfig } from './mcp_client';

@@ -1,9 +1,9 @@
 import { Tray, Menu } from 'electron';
 import path from 'path';
-import { isDev, getBaseDir } from 'ee-core/ps';
-import { logger } from 'ee-core/log';
+import { isDev, getBaseDir } from '../../server/adapters/ee-core-adapter';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import { app as electronApp } from 'electron';
-import { getMainWindow, getCloseAndQuit, setCloseAndQuit } from 'ee-core/electron';
+import { getMainWindow, getCloseAndQuit, setCloseAndQuit } from '../../server/adapters/ee-core-adapter';
 import { pub } from '../../class/public';
 
 /**

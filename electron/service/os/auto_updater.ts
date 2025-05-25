@@ -1,9 +1,9 @@
 import { app as electronApp } from 'electron';
 import { autoUpdater } from 'electron-updater';
-import { is } from 'ee-core/utils';
-import { logger } from 'ee-core/log';
+import { is } from '../../server/adapters/ee-core-adapter';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import { pub } from '../../class/public';
-import { getMainWindow, setCloseAndQuit } from 'ee-core/electron';
+import { getMainWindow, setCloseAndQuit } from '../../server/adapters/ee-core-adapter';
 
 /**
  * AutoUpdaterService class for automatic updates

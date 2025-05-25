@@ -2,7 +2,7 @@ import fs from 'fs';
 import tls from 'tls';
 import { pub } from '../class/public';
 import path from 'path';
-import { logger } from 'ee-core/log';
+import { logger } from '../../server/adapters/ee-core-adapter';
 import { shareChatService } from './share_chat';
 import { ChatContext, ChatHistory } from './chat';
 import ChatController from '../controller/chat';

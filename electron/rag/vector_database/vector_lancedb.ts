@@ -2,7 +2,7 @@ import * as lancedb from '@lancedb/lancedb';
 import { pub } from '../../class/public';
 import * as fs from 'fs';
 import * as path from 'path';
-import { logger } from 'ee-core/log';
+import { logger } from '../../../server/adapters/ee-core-adapter';
 import { ModelService } from '../../service/model';
 // 类型定义
 interface VectorRecord {
